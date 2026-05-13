@@ -50,11 +50,17 @@ QPKI is a quantum-safe PKI toolkit to help organizations prepare for post-quantu
 
 ## Installation
 
-### Quick Install (recommended)
+### Quick Install
 
 **Linux / macOS:**
 ```bash
 curl -sSL get.qpki.io | sh
+```
+
+**macOS (Homebrew):**
+```bash
+brew tap qpki/qpki
+brew install qpki
 ```
 
 **Windows (PowerShell):**
@@ -98,13 +104,6 @@ sudo dpkg -i qpki_VERSION_linux_amd64.deb
 
 # RHEL/Fedora
 sudo rpm -i qpki_VERSION_linux_amd64.rpm
-```
-
-### Install via Homebrew (macOS)
-
-```bash
-brew tap qpki/qpki
-brew install qpki
 ```
 
 ### Verify release signatures
